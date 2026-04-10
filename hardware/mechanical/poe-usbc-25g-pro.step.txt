@@ -1,0 +1,15 @@
+STEP placeholder intentionally not included in rev-A scaffold.
+
+When mechanical CAD begins, replace this file with:
+
+- `poe-usbc-25g-pro-enclosure.step`
+- `poe-usbc-25g-pro-board-envelope.step`
+
+Minimum export requirements:
+
+- full enclosure shell
+- board keepout envelope
+- connector keep-ins and cable bend volume
+- mounting bosses / screw geometry
+- polycarbonate window body
+

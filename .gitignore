@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# General build output
+build/
+out/
+dist/
+tmp/
+*.log
+
+# Git helpers
+*.orig
+
+# KiCad
+*.kicad_prl
+*.kicad_prl-bak
+*.kicad_sch-bak
+*.bak
+*.autosave
+*.tmp
+_autosave-*
+fp-info-cache
+sym-lib-table.local
+*.net
+*.xml
+*.rpt
+*.d356
+*.step-up
+
+# STM32CubeIDE / Eclipse
+firmware/STM32CubeIDE/Debug/
+firmware/STM32CubeIDE/Release/
+firmware/STM32CubeIDE/.settings/
+firmware/STM32CubeIDE/*.launch
+firmware/STM32CubeIDE/*.o
+firmware/STM32CubeIDE/*.d
+firmware/STM32CubeIDE/*.su
+firmware/STM32CubeIDE/*.map
+firmware/STM32CubeIDE/*.elf
+firmware/STM32CubeIDE/*.bin
+firmware/STM32CubeIDE/*.hex
+firmware/STM32CubeIDE/*.list
+firmware/STM32CubeIDE/*.lst
+
+# CMake / Ninja
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Testing/
+.ninja_deps
+.ninja_log
+build-*/
+
